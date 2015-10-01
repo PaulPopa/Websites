@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Assessment 4</title>
+		<link type="text/css" rel="stylesheet" href="assm4.css"/>
+			<script type="text/javascript" src="assm4.js"></script>
+			<script type="text/javascript" src="requestData.js"></script>
+			<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+	</head>
+	<body onload = "initialise();">
+		<div id = "mainpage">
+			<div id = "MyTicker"> </div>
+			<a href="#" class="backtoTop">Back To Top</a>
+			<div class = "menuitem" id = "Homepage">Homepage</div>
+			<div class = "menuitem" id = "topartists">Top Artists</div>
+			<div class = "menuitem" id = "toptracks">Top Tracks</div>
+			<div class = "menuitem" id = "events">Events</div>
+			<div class = "menuitem" id = "search">Search</div>
+			<div class = "menuitem" id = "filter">Filter By
+					<div class="menuitems">Listeners</div>
+					<div class="menuitems">Playcount</div>
+			</div>
+			<div class = "menuitem" id = "filter3">Filter By
+					<div class="menuitems">Listeners</div>
+					<div class="menuitems">Playcount</div>
+			</div>
+			<div class = "menuitem" id = "sort">Sort By
+					<div class="menuitems">Date</div>
+					<div class="menuitems">Event Name</div>
+			</div>
+			<div id="ticker">
+				<div id="genres">
+					<b>Genres:</b> 
+				</div>
+			</div>
+			<header class="central-header">
+            			<h2 class="heading">A page for <strong class ="strong">every artist, album and track</strong> you’ve ever played</h2>
+            			<p class="subheading">Plus community driven wikis, image galleries and tour dates.</p>
+       			 </header>
+			<div id = "contents">
+				<table id = "topartists2"></table>
+			</div>
+			<div id = "topartists-header"></div>
+		</div>
+	</body>
+</html>

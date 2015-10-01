@@ -1,0 +1,288 @@
+body 
+{
+	font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+	font-size:0.9em;
+	background-color:white;
+	background: url(1.jpg) no-repeat center center fixed; 
+ 	background-size: cover;
+}
+
+div#mainpage 
+{
+	margin:20px auto 0 auto;
+	background-color:white;
+	width:1000px;
+	position:relative;
+	top:30px;
+	min-height:500px;
+	border-radius:5px 5px 5px 5px;
+	border:solid 4px black;
+}
+
+.central-header 
+{
+	text-align: center;
+	font-size: 22px;
+	position:relative;
+	padding:0px 200px 0px 200px;
+
+}
+
+.strong
+{
+	color:#E2DA99;
+	text-shadow: 2px 2px black;
+}
+
+div#bold
+{
+	border-radius:5px 5px 5px 5px;
+	border:solid 0.5px black;
+	font-weight:bold;
+}
+
+
+.heading {
+	color: black;
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+
+.subheading 
+{
+    	color: black;
+   	line-height: 24px;
+	font-weight: normal;
+}
+
+.url 
+{
+	position:relative;
+	background-color: #FFCC00;
+	border-radius:5px 5px 5px 5px;
+	padding:10px;
+	text-align:center;
+	border:solid 2px black;
+	font-size:1.7em;
+	font-weight:bold;
+}
+
+div#MyTicker 
+{
+	position:relative;
+	top:20px;
+	left:127.5px;
+	width:700px;
+	height:40px;
+	text-align:center;
+	vertical-align:middle;
+	background-color:#E2DA99;
+	font-size:1.5em;
+	font-weight:bold;
+	border-radius:5px 5px 5px 5px;
+	border:solid 4px black;
+	padding:20px 20px 20px;
+}
+
+div#topartists
+{
+	top:160px;
+}
+
+img
+{
+	border:solid 4px black;
+}
+
+div#toptracks
+{
+	top:20px;
+	left:830px;
+}
+
+div#events
+{
+	top:30px;
+	left:830px;
+}
+
+div#filter
+{
+	position:absolute;
+	display:none;
+	top:385px;
+}
+
+div#search
+{
+	position:absolute;
+	top:160px;
+}
+
+div#sort
+{
+	position:absolute;
+	top:385px;
+	display:none;
+	left:830px;
+}
+
+div#filter3
+{
+	position:absolute;
+	display:none;
+	top:385px;
+}
+div.menuitem
+{
+	width:100px;
+	border-radius:5px 5px 5px 5px;
+	border:solid 4px black;
+	background-color:#E2DA99;
+	position:relative;
+	top:150px;
+	left:20px;
+	padding:20px 20px;
+	font-weight:bold;
+	text-align:center;
+}
+
+div.menuitems
+{
+	display: none;
+	border-radius:5px 5px 5px 5px;
+	border:solid 2px black;
+	padding:10px;
+	background-color:#FFCC00;
+}
+
+div.menuitems:hover
+{
+	background-color:white;
+}
+
+div.menuitem:hover 
+{
+	background-color:#FFFF88;
+}
+
+div#contents
+{
+	width:500px;
+	border-radius:5px 5px 5px 5px;
+	border:solid 4px black;
+	background-color:#E2DA99;
+	position:relative;
+	top:-225px;
+	left:227.5px;
+	padding:20px 20px 20px;
+	display:none;
+}
+div#name
+{
+	font-size:2em;
+}
+
+div#name2
+{
+	font-size:1.5em;
+}
+#tdid
+{
+	font-size:2em;
+}
+.td1
+{
+	border-radius:5px 5px 5px 5px;
+	padding:10px;
+	border:solid 2px black;
+	font-size:2.5em;
+	font-weight:bold;
+	text-align:center;
+	background-color:#FFCC00;
+}
+
+.td2
+{
+	border-radius:5px 5px 5px 5px;
+	padding:10px;
+	font-size:1.2em;
+	border:solid 2px black;
+	background-color:#FFCC00;
+}
+	
+div.rightpart
+{
+	text-align:center;
+	font-size:1.5em;
+	font-weight:bold;
+}
+
+
+
+div#ticker 
+{
+	position:relative;
+	top:-75px;
+	left:227.5px;
+	width:500px;
+	padding:20px 20px 20px;
+	background-color:#FFCC00;
+	border:solid 4px black;
+	text-align: center;
+	font-size:1.5em;
+	font-weight:bold;
+}
+
+div#genres 
+{
+	padding:5px;
+}
+
+div#topartists-header
+{
+	border:solid 4px black;
+	position:absolute;
+	top:119px;
+	left:227.5px;
+	width:500px;
+	padding:20px 20px 20px;
+	text-align: center;
+	font-size:1.5em;
+	font-weight:bold;
+	vertical-align:middle;
+	background-color:#FFCC00;
+	border-radius:5px 5px 5px 5px;
+	display: none;
+
+}
+
+.backtoTop
+{
+	width:100px; 
+	height:20px;
+	top:600px;
+	padding:20px; 
+	font-size:1em;
+	text-align:center; 
+	background: #FFCC00;
+	font-weight: bold;
+	color: #444;
+	position:fixed;
+	right:277px;
+	display:none;
+	border:solid 4px black;
+}
+
+.backtoTop:hover
+{
+	text-decoration:none;
+}
+
+
+
+
+	
+
+
+
