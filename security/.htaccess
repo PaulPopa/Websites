@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^/?Some-text-goes-here/([0-9]+)$ /documents.php?open=$a

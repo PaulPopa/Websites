@@ -1,0 +1,2 @@
+Congratulations. 
+This is the token: flag{goosfraba}
